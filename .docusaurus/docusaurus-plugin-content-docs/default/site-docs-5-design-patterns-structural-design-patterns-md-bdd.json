@@ -1,0 +1,26 @@
+{
+  "unversionedId": "design-patterns/structural_design_patterns",
+  "id": "design-patterns/structural_design_patterns",
+  "title": "3. Structural Design Patterns",
+  "description": "Structural patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient. To achieve that, both inheritance and composition can be applied.",
+  "source": "@site/docs/5-design-patterns/structural_design_patterns.md",
+  "sourceDirName": "5-design-patterns",
+  "slug": "/design-patterns/structural_design_patterns",
+  "permalink": "/docs/design-patterns/structural_design_patterns",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. Creational Design Patterns",
+    "permalink": "/docs/design-patterns/creational_design_patterns"
+  },
+  "next": {
+    "title": "4. Behavioral Design Patterns",
+    "permalink": "/docs/design-patterns/behavioral_design_patterns"
+  }
+}

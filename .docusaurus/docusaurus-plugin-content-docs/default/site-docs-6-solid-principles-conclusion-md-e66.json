@@ -1,0 +1,26 @@
+{
+  "unversionedId": "solid-principles/conclusion",
+  "id": "solid-principles/conclusion",
+  "title": "4. Conclusion",
+  "description": "In this lesson you have learnt about SOLID principles that are commonly used in development and software design. These are 5 essential principles used by software engineers all around the globe, and if you are serious about creating solid software, you should start applying these principles today!",
+  "source": "@site/docs/6-solid-principles/conclusion.md",
+  "sourceDirName": "6-solid-principles",
+  "slug": "/solid-principles/conclusion",
+  "permalink": "/docs/solid-principles/conclusion",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Anti SOLID",
+    "permalink": "/docs/solid-principles/anti_solid"
+  },
+  "next": {
+    "title": "5. 📚 Home Task",
+    "permalink": "/docs/solid-principles/hometask"
+  }
+}

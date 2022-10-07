@@ -1,0 +1,26 @@
+{
+  "unversionedId": "design-patterns/hometask",
+  "id": "design-patterns/hometask",
+  "title": "6. 📚 Home Task",
+  "description": "The home task should be done using TypeScript.",
+  "source": "@site/docs/5-design-patterns/hometask.md",
+  "sourceDirName": "5-design-patterns",
+  "slug": "/design-patterns/hometask",
+  "permalink": "/docs/design-patterns/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Conclusion",
+    "permalink": "/docs/design-patterns/conclusion"
+  },
+  "next": {
+    "title": "1. Introduction",
+    "permalink": "/docs/solid-principles/introduction"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-2/duck_typing",
+  "id": "building-blocks-of-oop-part-2/duck_typing",
+  "title": "2. Duck Typing",
+  "description": "2.1 If It Walks Like a Duck and Talks Like a Duck Then It's a Duck",
+  "source": "@site/docs/3-building-blocks-of-oop-part-2/duck_typing.md",
+  "sourceDirName": "3-building-blocks-of-oop-part-2",
+  "slug": "/building-blocks-of-oop-part-2/duck_typing",
+  "permalink": "/docs/building-blocks-of-oop-part-2/duck_typing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Composition",
+    "permalink": "/docs/building-blocks-of-oop-part-2/composition"
+  },
+  "next": {
+    "title": "3. Mixins",
+    "permalink": "/docs/building-blocks-of-oop-part-2/mixins"
+  }
+}

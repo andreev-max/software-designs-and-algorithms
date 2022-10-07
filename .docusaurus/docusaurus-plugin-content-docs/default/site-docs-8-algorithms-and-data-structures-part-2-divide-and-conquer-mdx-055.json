@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-2/divide_and_conquer",
+  "id": "algorithms-and-data-structures-part-2/divide_and_conquer",
+  "title": "3. Divide and Conquer",
+  "description": "We can choose from a wide range of algorithm design techniques. For insertion sort, we used an incremental approach: having sorted the subarray A[1 .. j-1], we inserted the single element A[j] into its proper place, yielding the sorted subarray A[1 .. j].",
+  "source": "@site/docs/8-algorithms-and-data-structures-part-2/divide_and_conquer.mdx",
+  "sourceDirName": "8-algorithms-and-data-structures-part-2",
+  "slug": "/algorithms-and-data-structures-part-2/divide_and_conquer",
+  "permalink": "/docs/algorithms-and-data-structures-part-2/divide_and_conquer",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. Insertion Sort",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/insertion_sort"
+  },
+  "next": {
+    "title": "4. Heap. Heap Sort. Priority Queue",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/heap"
+  }
+}

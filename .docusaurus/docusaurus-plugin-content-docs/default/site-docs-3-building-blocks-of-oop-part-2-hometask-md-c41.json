@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-2/hometask",
+  "id": "building-blocks-of-oop-part-2/hometask",
+  "title": "6. 📚 Home Task",
+  "description": "The home task should be done using TypeScript.",
+  "source": "@site/docs/3-building-blocks-of-oop-part-2/hometask.md",
+  "sourceDirName": "3-building-blocks-of-oop-part-2",
+  "slug": "/building-blocks-of-oop-part-2/hometask",
+  "permalink": "/docs/building-blocks-of-oop-part-2/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Design by Contract",
+    "permalink": "/docs/building-blocks-of-oop-part-2/desing_by_contract"
+  },
+  "next": {
+    "title": "1. Functional programing (FP)",
+    "permalink": "/docs/functional-programming/general_fp"
+  }
+}

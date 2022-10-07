@@ -1,0 +1,196 @@
+{
+  "/docs-900": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "e32e8638"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/docs/algorithms-and-data-structures-part-1/b-trees-499": {
+    "__comp": "17896441",
+    "content": "3432e838"
+  },
+  "/docs/algorithms-and-data-structures-part-1/binary_search_tree-217": {
+    "__comp": "17896441",
+    "content": "c0d02b25"
+  },
+  "/docs/algorithms-and-data-structures-part-1/elementary_data_structures-d01": {
+    "__comp": "17896441",
+    "content": "993cbadb"
+  },
+  "/docs/algorithms-and-data-structures-part-1/graphs-82b": {
+    "__comp": "17896441",
+    "content": "1f8856e9"
+  },
+  "/docs/algorithms-and-data-structures-part-1/hometask-920": {
+    "__comp": "17896441",
+    "content": "911cd42b"
+  },
+  "/docs/algorithms-and-data-structures-part-1/red-black_tree-efa": {
+    "__comp": "17896441",
+    "content": "86bc76cc"
+  },
+  "/docs/algorithms-and-data-structures-part-2/algorithms-227": {
+    "__comp": "17896441",
+    "content": "e4f91461"
+  },
+  "/docs/algorithms-and-data-structures-part-2/divide_and_conquer-50b": {
+    "__comp": "17896441",
+    "content": "05560efe"
+  },
+  "/docs/algorithms-and-data-structures-part-2/heap-bdc": {
+    "__comp": "17896441",
+    "content": "bed43d43"
+  },
+  "/docs/algorithms-and-data-structures-part-2/hometask-42e": {
+    "__comp": "17896441",
+    "content": "5e42b64b"
+  },
+  "/docs/algorithms-and-data-structures-part-2/insertion_sort-f8c": {
+    "__comp": "17896441",
+    "content": "5060d9b5"
+  },
+  "/docs/algorithms-and-data-structures-part-2/other_sorting_algorithms-c7c": {
+    "__comp": "17896441",
+    "content": "f468713f"
+  },
+  "/docs/building-blocks-of-oop-part-1/hometask-be4": {
+    "__comp": "17896441",
+    "content": "257edb22"
+  },
+  "/docs/building-blocks-of-oop-part-1/inheritance_in_details-e42": {
+    "__comp": "17896441",
+    "content": "6c8a8109"
+  },
+  "/docs/building-blocks-of-oop-part-1/interface-8e2": {
+    "__comp": "17896441",
+    "content": "44f0cefb"
+  },
+  "/docs/building-blocks-of-oop-part-1/object-oriented_design_introduction-235": {
+    "__comp": "17896441",
+    "content": "98567e4b"
+  },
+  "/docs/building-blocks-of-oop-part-1/principles_of_oop-54e": {
+    "__comp": "17896441",
+    "content": "ee88c6d3"
+  },
+  "/docs/building-blocks-of-oop-part-1/programming_paradigm-558": {
+    "__comp": "17896441",
+    "content": "f9376429"
+  },
+  "/docs/building-blocks-of-oop-part-1/unified_modeling_language-e81": {
+    "__comp": "17896441",
+    "content": "46588632"
+  },
+  "/docs/building-blocks-of-oop-part-2/composition-fef": {
+    "__comp": "17896441",
+    "content": "a53f1961"
+  },
+  "/docs/building-blocks-of-oop-part-2/desing_by_contract-b7a": {
+    "__comp": "17896441",
+    "content": "25afe445"
+  },
+  "/docs/building-blocks-of-oop-part-2/duck_typing-d53": {
+    "__comp": "17896441",
+    "content": "e7b4ce34"
+  },
+  "/docs/building-blocks-of-oop-part-2/hometask-f20": {
+    "__comp": "17896441",
+    "content": "c418439d"
+  },
+  "/docs/building-blocks-of-oop-part-2/mixins-1e0": {
+    "__comp": "17896441",
+    "content": "71020f3e"
+  },
+  "/docs/building-blocks-of-oop-part-2/the_law_of_demeter-ac2": {
+    "__comp": "17896441",
+    "content": "0b43d987"
+  },
+  "/docs/contents-023": {
+    "__comp": "17896441",
+    "content": "2dc3d3ff"
+  },
+  "/docs/design-patterns/behavioral_design_patterns-193": {
+    "__comp": "17896441",
+    "content": "157b38b9"
+  },
+  "/docs/design-patterns/conclusion-e2b": {
+    "__comp": "17896441",
+    "content": "e09003c6"
+  },
+  "/docs/design-patterns/creational_design_patterns-67e": {
+    "__comp": "17896441",
+    "content": "52a97752"
+  },
+  "/docs/design-patterns/design_patterns-1df": {
+    "__comp": "17896441",
+    "content": "4f99b01c"
+  },
+  "/docs/design-patterns/hometask-688": {
+    "__comp": "17896441",
+    "content": "62161439"
+  },
+  "/docs/design-patterns/structural_design_patterns-68a": {
+    "__comp": "17896441",
+    "content": "bdd4c440"
+  },
+  "/docs/functional-programming/general_fp-4a0": {
+    "__comp": "17896441",
+    "content": "174ab48f"
+  },
+  "/docs/functional-programming/hometask-8c8": {
+    "__comp": "17896441",
+    "content": "74ed73d4"
+  },
+  "/docs/functional-programming/is_js_functional-f70": {
+    "__comp": "17896441",
+    "content": "b04c6e8a"
+  },
+  "/docs/functional-programming/language_possibilities-b19": {
+    "__comp": "17896441",
+    "content": "9dc7c563"
+  },
+  "/docs/functional-programming/main_concepts-c62": {
+    "__comp": "17896441",
+    "content": "368d136d"
+  },
+  "/docs/Introduction/help-e46": {
+    "__comp": "17896441",
+    "content": "85bd8326"
+  },
+  "/docs/Introduction/importance-of-TypeScript-knowledge-554": {
+    "__comp": "17896441",
+    "content": "1688183e"
+  },
+  "/docs/Introduction/intro-744": {
+    "__comp": "17896441",
+    "content": "a1e29d38"
+  },
+  "/docs/solid-principles/anti_solid-d84": {
+    "__comp": "17896441",
+    "content": "ff504be8"
+  },
+  "/docs/solid-principles/conclusion-c5e": {
+    "__comp": "17896441",
+    "content": "e6646ec0"
+  },
+  "/docs/solid-principles/hometask-ae3": {
+    "__comp": "17896441",
+    "content": "b08c4cdc"
+  },
+  "/docs/solid-principles/introduction-aa4": {
+    "__comp": "17896441",
+    "content": "86794911"
+  },
+  "/docs/solid-principles/solid-596": {
+    "__comp": "17896441",
+    "content": "5e146af7"
+  },
+  "/-6a6": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "6dda4e1e"
+    },
+    "config": "5e9f5e1a"
+  }
+}

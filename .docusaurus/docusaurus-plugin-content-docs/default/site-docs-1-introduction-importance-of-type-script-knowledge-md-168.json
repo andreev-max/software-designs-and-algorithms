@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Introduction/importance-of-TypeScript-knowledge",
+  "id": "Introduction/importance-of-TypeScript-knowledge",
+  "title": "🛠 Importance of TypeScript knowledge for the course",
+  "description": "There is an expectation that participants of the course know TypeScript on the basic level. Almost all code snippets presented in the course are written in TypeScript. So, why is TypeScript important for the course?",
+  "source": "@site/docs/1-Introduction/importance-of-TypeScript-knowledge.md",
+  "sourceDirName": "1-Introduction",
+  "slug": "/Introduction/importance-of-TypeScript-knowledge",
+  "permalink": "/docs/Introduction/importance-of-TypeScript-knowledge",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "📍 Help",
+    "permalink": "/docs/Introduction/help"
+  },
+  "next": {
+    "title": "Software Designs and Algorithms: Contents",
+    "permalink": "/docs/contents"
+  }
+}

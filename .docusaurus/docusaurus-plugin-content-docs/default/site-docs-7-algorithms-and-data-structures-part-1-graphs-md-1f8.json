@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-1/graphs",
+  "id": "algorithms-and-data-structures-part-1/graphs",
+  "title": "5. Graphs",
+  "description": "Finishing theme of this lecture will be about graphs. All types of trees we looked at in this lecture are special cases of graphs. A graph is a data structure, that consists of finite set of vertices, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges.",
+  "source": "@site/docs/7-algorithms-and-data-structures-part-1/graphs.md",
+  "sourceDirName": "7-algorithms-and-data-structures-part-1",
+  "slug": "/algorithms-and-data-structures-part-1/graphs",
+  "permalink": "/docs/algorithms-and-data-structures-part-1/graphs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4. B-Trees",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/b-trees"
+  },
+  "next": {
+    "title": "6. 📚 Home Task",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/hometask"
+  }
+}

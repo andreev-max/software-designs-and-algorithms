@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-2/heap",
+  "id": "algorithms-and-data-structures-part-2/heap",
+  "title": "4. Heap. Heap Sort. Priority Queue",
+  "description": "The (binary) heap data structure is an array object that we can view as a nearly complete binary tree. Each node of the tree corresponds to an element of the array. The tree is completely filled on all levels except possibly the lowest, which is filled from the left up to a point. An array A that represents a heap is an object with two attributes",
+  "source": "@site/docs/8-algorithms-and-data-structures-part-2/heap.md",
+  "sourceDirName": "8-algorithms-and-data-structures-part-2",
+  "slug": "/algorithms-and-data-structures-part-2/heap",
+  "permalink": "/docs/algorithms-and-data-structures-part-2/heap",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Divide and Conquer",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/divide_and_conquer"
+  },
+  "next": {
+    "title": "5. Other sorting algorithms",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/other_sorting_algorithms"
+  }
+}

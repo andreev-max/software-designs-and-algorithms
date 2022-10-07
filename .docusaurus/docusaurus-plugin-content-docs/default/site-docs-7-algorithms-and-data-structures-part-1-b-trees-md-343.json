@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-1/b-trees",
+  "id": "algorithms-and-data-structures-part-1/b-trees",
+  "title": "4. B-Trees",
+  "description": "B-trees are an immensely powerful tools that are used in SQL and in filesystems. They inherited a loft from red-black trees. Let us figure out what they are and how they work.",
+  "source": "@site/docs/7-algorithms-and-data-structures-part-1/b-trees.md",
+  "sourceDirName": "7-algorithms-and-data-structures-part-1",
+  "slug": "/algorithms-and-data-structures-part-1/b-trees",
+  "permalink": "/docs/algorithms-and-data-structures-part-1/b-trees",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Red-Black Tree",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/red-black_tree"
+  },
+  "next": {
+    "title": "5. Graphs",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/graphs"
+  }
+}

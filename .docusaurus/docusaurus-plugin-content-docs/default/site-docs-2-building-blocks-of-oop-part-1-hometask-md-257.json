@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/hometask",
+  "id": "building-blocks-of-oop-part-1/hometask",
+  "title": "7. 📚 Home Task",
+  "description": "The home task should be done using TypeScript.",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/hometask.md",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/hometask",
+  "permalink": "/docs/building-blocks-of-oop-part-1/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6. Object-oriented Design Introduction",
+    "permalink": "/docs/building-blocks-of-oop-part-1/object-oriented_design_introduction"
+  },
+  "next": {
+    "title": "1. Composition",
+    "permalink": "/docs/building-blocks-of-oop-part-2/composition"
+  }
+}

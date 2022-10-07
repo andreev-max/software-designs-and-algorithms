@@ -1,0 +1,26 @@
+{
+  "unversionedId": "functional-programming/hometask",
+  "id": "functional-programming/hometask",
+  "title": "5. 📚 Home Task",
+  "description": "The home task should be done using TypeScript.",
+  "source": "@site/docs/4-functional-programming/hometask.md",
+  "sourceDirName": "4-functional-programming",
+  "slug": "/functional-programming/hometask",
+  "permalink": "/docs/functional-programming/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4. Functional programing in JS",
+    "permalink": "/docs/functional-programming/is_js_functional"
+  },
+  "next": {
+    "title": "1. Design Patterns",
+    "permalink": "/docs/design-patterns/design_patterns"
+  }
+}

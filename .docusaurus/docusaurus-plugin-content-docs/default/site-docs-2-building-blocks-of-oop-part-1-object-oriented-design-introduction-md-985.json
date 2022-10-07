@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/object-oriented_design_introduction",
+  "id": "building-blocks-of-oop-part-1/object-oriented_design_introduction",
+  "title": "6. Object-oriented Design Introduction",
+  "description": "Object-oriented design is the process of planning a system of interacting objects for the purpose of solving a software problem. It is one approach to software design.",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/object-oriented_design_introduction.md",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/object-oriented_design_introduction",
+  "permalink": "/docs/building-blocks-of-oop-part-1/object-oriented_design_introduction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Interface",
+    "permalink": "/docs/building-blocks-of-oop-part-1/interface"
+  },
+  "next": {
+    "title": "7. 📚 Home Task",
+    "permalink": "/docs/building-blocks-of-oop-part-1/hometask"
+  }
+}

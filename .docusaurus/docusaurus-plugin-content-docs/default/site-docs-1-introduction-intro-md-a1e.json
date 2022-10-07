@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Introduction/intro",
+  "id": "Introduction/intro",
+  "title": "✋ Intro",
+  "description": "Necessary knowledge",
+  "source": "@site/docs/1-Introduction/intro.md",
+  "sourceDirName": "1-Introduction",
+  "slug": "/Introduction/intro",
+  "permalink": "/docs/Introduction/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "📍 Help",
+    "permalink": "/docs/Introduction/help"
+  }
+}

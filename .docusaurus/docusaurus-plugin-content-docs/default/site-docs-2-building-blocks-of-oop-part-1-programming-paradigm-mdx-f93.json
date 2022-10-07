@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/programming_paradigm",
+  "id": "building-blocks-of-oop-part-1/programming_paradigm",
+  "title": "1. Programming Paradigm",
+  "description": "This lecture is going to be dedicated to object-oriented programming and object-oriented design. It is going to be an overview lecture of what you are going to learn in this course, but I recommend you pay close attention to it. The reason being, it is going to include a lot of basics and principles that will help you write better, cleaner, more maintainable code.",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/programming_paradigm.mdx",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/programming_paradigm",
+  "permalink": "/docs/building-blocks-of-oop-part-1/programming_paradigm",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Software Designs and Algorithms: Contents",
+    "permalink": "/docs/contents"
+  },
+  "next": {
+    "title": "2. Unified Modeling Language",
+    "permalink": "/docs/building-blocks-of-oop-part-1/unified_modeling_language"
+  }
+}

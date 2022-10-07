@@ -1,0 +1,26 @@
+{
+  "unversionedId": "design-patterns/design_patterns",
+  "id": "design-patterns/design_patterns",
+  "title": "1. Design Patterns",
+  "description": "Design pattern is a commonly used solution for a specific problem in software design. Unlike developed functions or libraries, pattern cannot be just copied to the code. It's not an already made piece of software, but a general conception of solution for the problem, which has to be adjusted and implemented in your software.",
+  "source": "@site/docs/5-design-patterns/design_patterns.md",
+  "sourceDirName": "5-design-patterns",
+  "slug": "/design-patterns/design_patterns",
+  "permalink": "/docs/design-patterns/design_patterns",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. 📚 Home Task",
+    "permalink": "/docs/functional-programming/hometask"
+  },
+  "next": {
+    "title": "2. Creational Design Patterns",
+    "permalink": "/docs/design-patterns/creational_design_patterns"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-1/elementary_data_structures",
+  "id": "algorithms-and-data-structures-part-1/elementary_data_structures",
+  "title": "1. Elementary Data Structures",
+  "description": "This is a finishing part of this course and the last lecture dedicated to data structures and algorithms performed on them. At first, it is better to start with the most simple data structures that implement last in, first out (LIFO) and first in, first out (FIFO) principles.",
+  "source": "@site/docs/7-algorithms-and-data-structures-part-1/elementary_data_structures.md",
+  "sourceDirName": "7-algorithms-and-data-structures-part-1",
+  "slug": "/algorithms-and-data-structures-part-1/elementary_data_structures",
+  "permalink": "/docs/algorithms-and-data-structures-part-1/elementary_data_structures",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. 📚 Home Task",
+    "permalink": "/docs/solid-principles/hometask"
+  },
+  "next": {
+    "title": "2. Binary Search Tree",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/binary_search_tree"
+  }
+}

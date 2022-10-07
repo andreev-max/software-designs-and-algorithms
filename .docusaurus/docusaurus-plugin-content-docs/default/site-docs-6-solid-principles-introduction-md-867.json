@@ -1,0 +1,26 @@
+{
+  "unversionedId": "solid-principles/introduction",
+  "id": "solid-principles/introduction",
+  "title": "1. Introduction",
+  "description": "In this section you are going to learn about SOLID principles that are commonly used in development and software design. You will study each of the principles in details, review examples of their usage and violations. As a result, you will understand why SOLID principles are needed and whether they are needed at all.",
+  "source": "@site/docs/6-solid-principles/introduction.md",
+  "sourceDirName": "6-solid-principles",
+  "slug": "/solid-principles/introduction",
+  "permalink": "/docs/solid-principles/introduction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6. 📚 Home Task",
+    "permalink": "/docs/design-patterns/hometask"
+  },
+  "next": {
+    "title": "2. SOLID",
+    "permalink": "/docs/solid-principles/solid"
+  }
+}

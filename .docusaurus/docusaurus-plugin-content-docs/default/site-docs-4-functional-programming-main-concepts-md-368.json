@@ -1,0 +1,26 @@
+{
+  "unversionedId": "functional-programming/main_concepts",
+  "id": "functional-programming/main_concepts",
+  "title": "3. Main concepts",
+  "description": "3.1 Immutability",
+  "source": "@site/docs/4-functional-programming/main_concepts.md",
+  "sourceDirName": "4-functional-programming",
+  "slug": "/functional-programming/main_concepts",
+  "permalink": "/docs/functional-programming/main_concepts",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. Functional language possibilities",
+    "permalink": "/docs/functional-programming/language_possibilities"
+  },
+  "next": {
+    "title": "4. Functional programing in JS",
+    "permalink": "/docs/functional-programming/is_js_functional"
+  }
+}

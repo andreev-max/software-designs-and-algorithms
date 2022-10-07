@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-1/hometask",
+  "id": "algorithms-and-data-structures-part-1/hometask",
+  "title": "6. 📚 Home Task",
+  "description": "The home task should be done using TypeScript.",
+  "source": "@site/docs/7-algorithms-and-data-structures-part-1/hometask.md",
+  "sourceDirName": "7-algorithms-and-data-structures-part-1",
+  "slug": "/algorithms-and-data-structures-part-1/hometask",
+  "permalink": "/docs/algorithms-and-data-structures-part-1/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Graphs",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/graphs"
+  },
+  "next": {
+    "title": "1. Algorithms",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/algorithms"
+  }
+}

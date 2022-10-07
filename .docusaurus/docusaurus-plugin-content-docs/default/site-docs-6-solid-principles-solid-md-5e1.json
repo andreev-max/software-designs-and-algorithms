@@ -1,0 +1,26 @@
+{
+  "unversionedId": "solid-principles/solid",
+  "id": "solid-principles/solid",
+  "title": "2. SOLID",
+  "description": "2.1 Single Responsibility Principle (SRP)",
+  "source": "@site/docs/6-solid-principles/solid.md",
+  "sourceDirName": "6-solid-principles",
+  "slug": "/solid-principles/solid",
+  "permalink": "/docs/solid-principles/solid",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Introduction",
+    "permalink": "/docs/solid-principles/introduction"
+  },
+  "next": {
+    "title": "3. Anti SOLID",
+    "permalink": "/docs/solid-principles/anti_solid"
+  }
+}

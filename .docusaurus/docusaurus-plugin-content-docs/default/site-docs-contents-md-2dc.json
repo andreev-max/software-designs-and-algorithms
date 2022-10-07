@@ -1,0 +1,26 @@
+{
+  "unversionedId": "contents",
+  "id": "contents",
+  "title": "Software Designs and Algorithms: Contents",
+  "description": "- Building Blocks of OOP, Part 1",
+  "source": "@site/docs/contents.md",
+  "sourceDirName": ".",
+  "slug": "/contents",
+  "permalink": "/docs/contents",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🛠 Importance of TypeScript knowledge for the course",
+    "permalink": "/docs/Introduction/importance-of-TypeScript-knowledge"
+  },
+  "next": {
+    "title": "1. Programming Paradigm",
+    "permalink": "/docs/building-blocks-of-oop-part-1/programming_paradigm"
+  }
+}

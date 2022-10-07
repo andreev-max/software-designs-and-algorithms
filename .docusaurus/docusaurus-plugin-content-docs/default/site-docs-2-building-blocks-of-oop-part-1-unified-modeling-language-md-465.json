@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/unified_modeling_language",
+  "id": "building-blocks-of-oop-part-1/unified_modeling_language",
+  "title": "2. Unified Modeling Language",
+  "description": "2.1 What is UML",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/unified_modeling_language.md",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/unified_modeling_language",
+  "permalink": "/docs/building-blocks-of-oop-part-1/unified_modeling_language",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Programming Paradigm",
+    "permalink": "/docs/building-blocks-of-oop-part-1/programming_paradigm"
+  },
+  "next": {
+    "title": "3. Principles of OOP",
+    "permalink": "/docs/building-blocks-of-oop-part-1/principles_of_oop"
+  }
+}

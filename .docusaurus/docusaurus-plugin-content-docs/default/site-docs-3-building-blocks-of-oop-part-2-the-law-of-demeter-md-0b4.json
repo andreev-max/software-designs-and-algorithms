@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-2/the_law_of_demeter",
+  "id": "building-blocks-of-oop-part-2/the_law_of_demeter",
+  "title": "4. The Law of Demeter",
+  "description": "The purpose of the law of Demeter is lower cohesion. The low cohesion shows that the design is of good quality. In short, the law of Demeter sounds like this:",
+  "source": "@site/docs/3-building-blocks-of-oop-part-2/the_law_of_demeter.md",
+  "sourceDirName": "3-building-blocks-of-oop-part-2",
+  "slug": "/building-blocks-of-oop-part-2/the_law_of_demeter",
+  "permalink": "/docs/building-blocks-of-oop-part-2/the_law_of_demeter",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Mixins",
+    "permalink": "/docs/building-blocks-of-oop-part-2/mixins"
+  },
+  "next": {
+    "title": "5. Design by Contract",
+    "permalink": "/docs/building-blocks-of-oop-part-2/desing_by_contract"
+  }
+}

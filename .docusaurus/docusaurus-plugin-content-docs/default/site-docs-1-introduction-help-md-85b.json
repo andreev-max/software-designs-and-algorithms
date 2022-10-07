@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Introduction/help",
+  "id": "Introduction/help",
+  "title": "📍 Help",
+  "description": "How to Study the Course",
+  "source": "@site/docs/1-Introduction/help.md",
+  "sourceDirName": "1-Introduction",
+  "slug": "/Introduction/help",
+  "permalink": "/docs/Introduction/help",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "✋ Intro",
+    "permalink": "/docs/Introduction/intro"
+  },
+  "next": {
+    "title": "🛠 Importance of TypeScript knowledge for the course",
+    "permalink": "/docs/Introduction/importance-of-TypeScript-knowledge"
+  }
+}

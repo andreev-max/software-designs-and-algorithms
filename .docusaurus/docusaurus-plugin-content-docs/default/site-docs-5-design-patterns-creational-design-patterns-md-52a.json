@@ -1,0 +1,26 @@
+{
+  "unversionedId": "design-patterns/creational_design_patterns",
+  "id": "design-patterns/creational_design_patterns",
+  "title": "2. Creational Design Patterns",
+  "description": "Creational patterns as we have already mentioned, provide various object creation mechanisms. We are going to cover three of them: abstract factory, singleton and builder.",
+  "source": "@site/docs/5-design-patterns/creational_design_patterns.md",
+  "sourceDirName": "5-design-patterns",
+  "slug": "/design-patterns/creational_design_patterns",
+  "permalink": "/docs/design-patterns/creational_design_patterns",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Design Patterns",
+    "permalink": "/docs/design-patterns/design_patterns"
+  },
+  "next": {
+    "title": "3. Structural Design Patterns",
+    "permalink": "/docs/design-patterns/structural_design_patterns"
+  }
+}

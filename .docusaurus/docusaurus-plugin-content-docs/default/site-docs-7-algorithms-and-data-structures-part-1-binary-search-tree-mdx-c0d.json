@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-1/binary_search_tree",
+  "id": "algorithms-and-data-structures-part-1/binary_search_tree",
+  "title": "2. Binary Search Tree",
+  "description": "This data structure is a bit more interesting. With this data structure it's easy to implement a set data type, which is a collection of unique elements. It's also easy to implement operations such as search, finding min or max element in the set and search of previous and next values. All those operations take O(logn) time if the tree is balanced.",
+  "source": "@site/docs/7-algorithms-and-data-structures-part-1/binary_search_tree.mdx",
+  "sourceDirName": "7-algorithms-and-data-structures-part-1",
+  "slug": "/algorithms-and-data-structures-part-1/binary_search_tree",
+  "permalink": "/docs/algorithms-and-data-structures-part-1/binary_search_tree",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Elementary Data Structures",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/elementary_data_structures"
+  },
+  "next": {
+    "title": "3. Red-Black Tree",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/red-black_tree"
+  }
+}

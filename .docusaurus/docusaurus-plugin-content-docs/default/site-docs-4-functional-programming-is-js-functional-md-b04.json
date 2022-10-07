@@ -1,0 +1,26 @@
+{
+  "unversionedId": "functional-programming/is_js_functional",
+  "id": "functional-programming/is_js_functional",
+  "title": "4. Functional programing in JS",
+  "description": "4.1 Functional concepts in JS",
+  "source": "@site/docs/4-functional-programming/is_js_functional.md",
+  "sourceDirName": "4-functional-programming",
+  "slug": "/functional-programming/is_js_functional",
+  "permalink": "/docs/functional-programming/is_js_functional",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Main concepts",
+    "permalink": "/docs/functional-programming/main_concepts"
+  },
+  "next": {
+    "title": "5. 📚 Home Task",
+    "permalink": "/docs/functional-programming/hometask"
+  }
+}

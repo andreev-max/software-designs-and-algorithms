@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/principles_of_oop",
+  "id": "building-blocks-of-oop-part-1/principles_of_oop",
+  "title": "3. Principles of OOP",
+  "description": "We are done with the introductory part, let us move on to the principles of object-oriented programming. We will consider four basic principles of OOP on which the object-oriented concept, object-oriented programming is based: abstraction, polymorphism, encapsulation, and inheritance. In some sources, more concepts are highlighted, for example, Wikipedia still refers to the fundamental concepts of object-oriented programming such concepts as class and object. But these four concepts are the classics on which the concept of object-oriented programming is based.",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/principles_of_oop.md",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/principles_of_oop",
+  "permalink": "/docs/building-blocks-of-oop-part-1/principles_of_oop",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. Unified Modeling Language",
+    "permalink": "/docs/building-blocks-of-oop-part-1/unified_modeling_language"
+  },
+  "next": {
+    "title": "4. Inheritance in Details",
+    "permalink": "/docs/building-blocks-of-oop-part-1/inheritance_in_details"
+  }
+}

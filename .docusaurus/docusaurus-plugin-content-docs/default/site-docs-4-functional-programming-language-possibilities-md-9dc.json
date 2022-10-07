@@ -1,0 +1,26 @@
+{
+  "unversionedId": "functional-programming/language_possibilities",
+  "id": "functional-programming/language_possibilities",
+  "title": "2. Functional language possibilities",
+  "description": "There are several functional languages in there: Scala, Clojure, Lisp, Haskel, etc.",
+  "source": "@site/docs/4-functional-programming/language_possibilities.md",
+  "sourceDirName": "4-functional-programming",
+  "slug": "/functional-programming/language_possibilities",
+  "permalink": "/docs/functional-programming/language_possibilities",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Functional programing (FP)",
+    "permalink": "/docs/functional-programming/general_fp"
+  },
+  "next": {
+    "title": "3. Main concepts",
+    "permalink": "/docs/functional-programming/main_concepts"
+  }
+}

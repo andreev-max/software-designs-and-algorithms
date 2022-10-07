@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-2/other_sorting_algorithms",
+  "id": "algorithms-and-data-structures-part-2/other_sorting_algorithms",
+  "title": "5. Other sorting algorithms",
+  "description": "There are many other sorting algorithms. The following table provides an overview of some sorting algorithms. It is a selection of the most common sorting algorithms.",
+  "source": "@site/docs/8-algorithms-and-data-structures-part-2/other_sorting_algorithms.md",
+  "sourceDirName": "8-algorithms-and-data-structures-part-2",
+  "slug": "/algorithms-and-data-structures-part-2/other_sorting_algorithms",
+  "permalink": "/docs/algorithms-and-data-structures-part-2/other_sorting_algorithms",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4. Heap. Heap Sort. Priority Queue",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/heap"
+  },
+  "next": {
+    "title": "6. 📚 Home Task",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/hometask"
+  }
+}

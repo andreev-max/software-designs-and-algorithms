@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-2/insertion_sort",
+  "id": "algorithms-and-data-structures-part-2/insertion_sort",
+  "title": "2. Insertion Sort",
+  "description": "Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.",
+  "source": "@site/docs/8-algorithms-and-data-structures-part-2/insertion_sort.mdx",
+  "sourceDirName": "8-algorithms-and-data-structures-part-2",
+  "slug": "/algorithms-and-data-structures-part-2/insertion_sort",
+  "permalink": "/docs/algorithms-and-data-structures-part-2/insertion_sort",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Algorithms",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/algorithms"
+  },
+  "next": {
+    "title": "3. Divide and Conquer",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/divide_and_conquer"
+  }
+}

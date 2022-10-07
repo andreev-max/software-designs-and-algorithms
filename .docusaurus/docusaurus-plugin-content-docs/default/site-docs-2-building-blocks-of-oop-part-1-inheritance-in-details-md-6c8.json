@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/inheritance_in_details",
+  "id": "building-blocks-of-oop-part-1/inheritance_in_details",
+  "title": "4. Inheritance in Details",
+  "description": "4.1 Intro",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/inheritance_in_details.md",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/inheritance_in_details",
+  "permalink": "/docs/building-blocks-of-oop-part-1/inheritance_in_details",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Principles of OOP",
+    "permalink": "/docs/building-blocks-of-oop-part-1/principles_of_oop"
+  },
+  "next": {
+    "title": "5. Interface",
+    "permalink": "/docs/building-blocks-of-oop-part-1/interface"
+  }
+}

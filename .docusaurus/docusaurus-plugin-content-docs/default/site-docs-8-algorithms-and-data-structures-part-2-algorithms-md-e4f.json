@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-2/algorithms",
+  "id": "algorithms-and-data-structures-part-2/algorithms",
+  "title": "1. Algorithms",
+  "description": "So, what is algorithm? Non-programmers joke, that this is a word used by programmers when they do not want to explain what they did.",
+  "source": "@site/docs/8-algorithms-and-data-structures-part-2/algorithms.md",
+  "sourceDirName": "8-algorithms-and-data-structures-part-2",
+  "slug": "/algorithms-and-data-structures-part-2/algorithms",
+  "permalink": "/docs/algorithms-and-data-structures-part-2/algorithms",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6. 📚 Home Task",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/hometask"
+  },
+  "next": {
+    "title": "2. Insertion Sort",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/insertion_sort"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "solid-principles/hometask",
+  "id": "solid-principles/hometask",
+  "title": "5. 📚 Home Task",
+  "description": "1. Identify SOLID Principles",
+  "source": "@site/docs/6-solid-principles/hometask.md",
+  "sourceDirName": "6-solid-principles",
+  "slug": "/solid-principles/hometask",
+  "permalink": "/docs/solid-principles/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4. Conclusion",
+    "permalink": "/docs/solid-principles/conclusion"
+  },
+  "next": {
+    "title": "1. Elementary Data Structures",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/elementary_data_structures"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-1/red-black_tree",
+  "id": "algorithms-and-data-structures-part-1/red-black_tree",
+  "title": "3. Red-Black Tree",
+  "description": "A red-black tree is a binary search tree with one extra bit of storage per node: its color, which can be either RED or BLACK. By constraining the node colors on any simple path from the root to a leaf, red-black trees ensure that no such path is more than twice as long as any other, so that the tree is approximately balanced.",
+  "source": "@site/docs/7-algorithms-and-data-structures-part-1/red-black_tree.md",
+  "sourceDirName": "7-algorithms-and-data-structures-part-1",
+  "slug": "/algorithms-and-data-structures-part-1/red-black_tree",
+  "permalink": "/docs/algorithms-and-data-structures-part-1/red-black_tree",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. Binary Search Tree",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/binary_search_tree"
+  },
+  "next": {
+    "title": "4. B-Trees",
+    "permalink": "/docs/algorithms-and-data-structures-part-1/b-trees"
+  }
+}

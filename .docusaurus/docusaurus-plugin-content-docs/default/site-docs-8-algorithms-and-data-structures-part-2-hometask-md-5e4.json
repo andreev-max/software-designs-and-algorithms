@@ -1,0 +1,22 @@
+{
+  "unversionedId": "algorithms-and-data-structures-part-2/hometask",
+  "id": "algorithms-and-data-structures-part-2/hometask",
+  "title": "6. 📚 Home Task",
+  "description": "The home task should be done using TypeScript.",
+  "source": "@site/docs/8-algorithms-and-data-structures-part-2/hometask.md",
+  "sourceDirName": "8-algorithms-and-data-structures-part-2",
+  "slug": "/algorithms-and-data-structures-part-2/hometask",
+  "permalink": "/docs/algorithms-and-data-structures-part-2/hometask",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Other sorting algorithms",
+    "permalink": "/docs/algorithms-and-data-structures-part-2/other_sorting_algorithms"
+  }
+}

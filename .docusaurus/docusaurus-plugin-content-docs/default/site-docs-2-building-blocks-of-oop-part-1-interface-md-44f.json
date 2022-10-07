@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-1/interface",
+  "id": "building-blocks-of-oop-part-1/interface",
+  "title": "5. Interface",
+  "description": "As mentioned earlier, OOP is directly related to messages sent between objects. Moreover, it is important not only what objects know what behavior they have inside, on whom they depend (to whom messages are sent), but also how they communicate with each other. Objects communicate through interfaces.",
+  "source": "@site/docs/2-building-blocks-of-oop-part-1/interface.md",
+  "sourceDirName": "2-building-blocks-of-oop-part-1",
+  "slug": "/building-blocks-of-oop-part-1/interface",
+  "permalink": "/docs/building-blocks-of-oop-part-1/interface",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4. Inheritance in Details",
+    "permalink": "/docs/building-blocks-of-oop-part-1/inheritance_in_details"
+  },
+  "next": {
+    "title": "6. Object-oriented Design Introduction",
+    "permalink": "/docs/building-blocks-of-oop-part-1/object-oriented_design_introduction"
+  }
+}

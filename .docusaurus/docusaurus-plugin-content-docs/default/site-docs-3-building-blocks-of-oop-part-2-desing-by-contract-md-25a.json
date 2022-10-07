@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-2/desing_by_contract",
+  "id": "building-blocks-of-oop-part-2/desing_by_contract",
+  "title": "5. Design by Contract",
+  "description": "5.1 Correctness",
+  "source": "@site/docs/3-building-blocks-of-oop-part-2/desing_by_contract.md",
+  "sourceDirName": "3-building-blocks-of-oop-part-2",
+  "slug": "/building-blocks-of-oop-part-2/desing_by_contract",
+  "permalink": "/docs/building-blocks-of-oop-part-2/desing_by_contract",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4. The Law of Demeter",
+    "permalink": "/docs/building-blocks-of-oop-part-2/the_law_of_demeter"
+  },
+  "next": {
+    "title": "6. 📚 Home Task",
+    "permalink": "/docs/building-blocks-of-oop-part-2/hometask"
+  }
+}

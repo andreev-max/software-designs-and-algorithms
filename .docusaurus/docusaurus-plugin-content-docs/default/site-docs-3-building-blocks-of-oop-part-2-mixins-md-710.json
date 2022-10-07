@@ -1,0 +1,26 @@
+{
+  "unversionedId": "building-blocks-of-oop-part-2/mixins",
+  "id": "building-blocks-of-oop-part-2/mixins",
+  "title": "3. Mixins",
+  "description": "3.1 Sharing Role Behavior with Mixins",
+  "source": "@site/docs/3-building-blocks-of-oop-part-2/mixins.md",
+  "sourceDirName": "3-building-blocks-of-oop-part-2",
+  "slug": "/building-blocks-of-oop-part-2/mixins",
+  "permalink": "/docs/building-blocks-of-oop-part-2/mixins",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2. Duck Typing",
+    "permalink": "/docs/building-blocks-of-oop-part-2/duck_typing"
+  },
+  "next": {
+    "title": "4. The Law of Demeter",
+    "permalink": "/docs/building-blocks-of-oop-part-2/the_law_of_demeter"
+  }
+}

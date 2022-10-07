@@ -1,0 +1,26 @@
+{
+  "unversionedId": "design-patterns/behavioral_design_patterns",
+  "id": "design-patterns/behavioral_design_patterns",
+  "title": "4. Behavioral Design Patterns",
+  "description": "Behavioral design patterns are related to algorithms and the assignment of responsibilities between objects. They can be based on both – inheritance and composition.",
+  "source": "@site/docs/5-design-patterns/behavioral_design_patterns.md",
+  "sourceDirName": "5-design-patterns",
+  "slug": "/design-patterns/behavioral_design_patterns",
+  "permalink": "/docs/design-patterns/behavioral_design_patterns",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3. Structural Design Patterns",
+    "permalink": "/docs/design-patterns/structural_design_patterns"
+  },
+  "next": {
+    "title": "5. Conclusion",
+    "permalink": "/docs/design-patterns/conclusion"
+  }
+}

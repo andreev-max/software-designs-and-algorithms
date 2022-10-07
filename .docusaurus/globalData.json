@@ -1,0 +1,261 @@
+{
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1665133670980.json",
+        "lunrIndex": "lunr-index-1665133670980.json"
+      }
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Introduction/intro",
+          "docs": [
+            {
+              "id": "algorithms-and-data-structures-part-1/b-trees",
+              "path": "/docs/algorithms-and-data-structures-part-1/b-trees",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-1/binary_search_tree",
+              "path": "/docs/algorithms-and-data-structures-part-1/binary_search_tree",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-1/elementary_data_structures",
+              "path": "/docs/algorithms-and-data-structures-part-1/elementary_data_structures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-1/graphs",
+              "path": "/docs/algorithms-and-data-structures-part-1/graphs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-1/hometask",
+              "path": "/docs/algorithms-and-data-structures-part-1/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-1/red-black_tree",
+              "path": "/docs/algorithms-and-data-structures-part-1/red-black_tree",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-2/algorithms",
+              "path": "/docs/algorithms-and-data-structures-part-2/algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-2/divide_and_conquer",
+              "path": "/docs/algorithms-and-data-structures-part-2/divide_and_conquer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-2/heap",
+              "path": "/docs/algorithms-and-data-structures-part-2/heap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-2/hometask",
+              "path": "/docs/algorithms-and-data-structures-part-2/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-2/insertion_sort",
+              "path": "/docs/algorithms-and-data-structures-part-2/insertion_sort",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms-and-data-structures-part-2/other_sorting_algorithms",
+              "path": "/docs/algorithms-and-data-structures-part-2/other_sorting_algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/hometask",
+              "path": "/docs/building-blocks-of-oop-part-1/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/inheritance_in_details",
+              "path": "/docs/building-blocks-of-oop-part-1/inheritance_in_details",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/interface",
+              "path": "/docs/building-blocks-of-oop-part-1/interface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/object-oriented_design_introduction",
+              "path": "/docs/building-blocks-of-oop-part-1/object-oriented_design_introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/principles_of_oop",
+              "path": "/docs/building-blocks-of-oop-part-1/principles_of_oop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/programming_paradigm",
+              "path": "/docs/building-blocks-of-oop-part-1/programming_paradigm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-1/unified_modeling_language",
+              "path": "/docs/building-blocks-of-oop-part-1/unified_modeling_language",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-2/composition",
+              "path": "/docs/building-blocks-of-oop-part-2/composition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-2/desing_by_contract",
+              "path": "/docs/building-blocks-of-oop-part-2/desing_by_contract",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-2/duck_typing",
+              "path": "/docs/building-blocks-of-oop-part-2/duck_typing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-2/hometask",
+              "path": "/docs/building-blocks-of-oop-part-2/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-2/mixins",
+              "path": "/docs/building-blocks-of-oop-part-2/mixins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "building-blocks-of-oop-part-2/the_law_of_demeter",
+              "path": "/docs/building-blocks-of-oop-part-2/the_law_of_demeter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contents",
+              "path": "/docs/contents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-patterns/behavioral_design_patterns",
+              "path": "/docs/design-patterns/behavioral_design_patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-patterns/conclusion",
+              "path": "/docs/design-patterns/conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-patterns/creational_design_patterns",
+              "path": "/docs/design-patterns/creational_design_patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-patterns/design_patterns",
+              "path": "/docs/design-patterns/design_patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-patterns/hometask",
+              "path": "/docs/design-patterns/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-patterns/structural_design_patterns",
+              "path": "/docs/design-patterns/structural_design_patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functional-programming/general_fp",
+              "path": "/docs/functional-programming/general_fp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functional-programming/hometask",
+              "path": "/docs/functional-programming/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functional-programming/is_js_functional",
+              "path": "/docs/functional-programming/is_js_functional",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functional-programming/language_possibilities",
+              "path": "/docs/functional-programming/language_possibilities",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functional-programming/main_concepts",
+              "path": "/docs/functional-programming/main_concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/help",
+              "path": "/docs/Introduction/help",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/importance-of-TypeScript-knowledge",
+              "path": "/docs/Introduction/importance-of-TypeScript-knowledge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/intro",
+              "path": "/docs/Introduction/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "solid-principles/anti_solid",
+              "path": "/docs/solid-principles/anti_solid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "solid-principles/conclusion",
+              "path": "/docs/solid-principles/conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "solid-principles/hometask",
+              "path": "/docs/solid-principles/hometask",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "solid-principles/introduction",
+              "path": "/docs/solid-principles/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "solid-principles/solid",
+              "path": "/docs/solid-principles/solid",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/Introduction/intro",
+                "label": "Introduction/intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
