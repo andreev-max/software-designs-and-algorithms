@@ -13,6 +13,13 @@ export class Triangle extends Shape {
     point1: Point,
     point2: Point,
     point3: Point,
+    color: string,
+    filled: boolean
+  );
+  constructor(
+    point1: Point,
+    point2: Point,
+    point3: Point,
     color?: string,
     filled?: boolean
   ) {
@@ -20,7 +27,7 @@ export class Triangle extends Shape {
   }
 
   public toString(): string {
-    return `Triangle[v1=(${this.points[0].x}, ${this.points[0].y}),v2=(${this.points[1].x}, ${this.points[1].y}),v3=(${this.points[2].x}, ${this.points[2].y})]`;
+    return `Triangle[v1=${this.points[0]},v2=${this.points[1]},v3=${this.points[2]}]`;
   }
 
   getType(): string {
@@ -30,7 +37,11 @@ export class Triangle extends Shape {
 
     if (firstSide === secondSide && secondSide === thirdSide) {
       return TriangleType.equilateral;
-    } else if (firstSide === secondSide || secondSide === thirdSide) {
+    } else if (
+      firstSide === secondSide ||
+      secondSide === thirdSide ||
+      firstSide === thirdSide
+    ) {
       return TriangleType.isosceles;
     }
 
