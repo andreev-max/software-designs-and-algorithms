@@ -22,7 +22,7 @@ export class Point {
     if (typeof x === "number" && typeof y === "number") {
       otherX = x;
       otherY = y;
-    } else if (isPoint(x)) {
+    } else if (x && typeof x !== "number") {
       otherX = x.x;
       otherY = x.y;
     }
@@ -33,8 +33,4 @@ export class Point {
       ) / 1000
     );
   }
-}
-
-function isPoint(x: number | Point | undefined): x is Point {
-  return (<Point>x)?.x !== undefined && (<Point>x)?.y !== undefined;
 }
