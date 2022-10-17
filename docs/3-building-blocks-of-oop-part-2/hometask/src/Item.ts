@@ -12,17 +12,18 @@ export abstract class Item implements Comparable<Item> {
     this.name = name;
     this.value = value;
     this.weight = weight;
-    this.id = id;
-    id++;
+    this.id = id++;
   }
 
-  use(): void {}
+  abstract use(): void;
 
   public compareTo(other: Item): number {
     const { value, name } = other;
     if (this.value > value) {
       return 1;
-    } else if (this.value < value) {
+    }
+    
+    if (this.value < value) {
       return -1;
     }
 
@@ -65,11 +66,11 @@ export abstract class Item implements Comparable<Item> {
     this.weight = weight;
   }
 
-  reset(): void {
+  static reset(): void {
     id = 0;
   }
 
-  static numberOfItems(): number {
+  static get numberOfItems(): number {
     return id;
   }
 }

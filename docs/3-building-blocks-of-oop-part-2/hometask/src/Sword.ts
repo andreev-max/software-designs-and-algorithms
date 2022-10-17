@@ -1,6 +1,6 @@
 import { Weapon } from "./Weapon";
 
-const MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE = 1.25;
+const MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE = 0.25;
 
 export class Sword extends Weapon {
   constructor(
@@ -14,7 +14,7 @@ export class Sword extends Weapon {
 
   polish(): void {
     if (
-      this.damageModifier + this.MODIFIER_CHANGE_RATE >
+      this.damageModifier + Sword.MODIFIER_CHANGE_RATE >
       this.baseDamage * MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE
     ) {
       this.damageModifier =
@@ -22,6 +22,6 @@ export class Sword extends Weapon {
       return;
     }
 
-    this.damageModifier = this.damageModifier + this.MODIFIER_CHANGE_RATE;
+    this.damageModifier = this.damageModifier + Sword.MODIFIER_CHANGE_RATE;
   }
 }
