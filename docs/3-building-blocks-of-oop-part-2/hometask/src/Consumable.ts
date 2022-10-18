@@ -35,4 +35,10 @@ export class Consumable extends Item {
   setConsumed(consumed: boolean): void {
     this.consumed = consumed;
   }
+
+  toString(): string {
+    return `${this.name} - Value: ${this.value}, Weight: ${
+      this.weight
+    }, Is Spoiled: ${this.spoiled}, Is Consumed: ${this.isConsumed()}`;
+  }
 }

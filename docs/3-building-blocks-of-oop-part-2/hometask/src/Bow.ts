@@ -14,17 +14,17 @@ export class Sword extends Weapon {
 
   polish(): void {
     if (
-      this.durabilityModifier +
-        this.baseDurability +
+      this.getDurabilityModifier +
+        this.getBaseDurability +
         Sword.MODIFIER_CHANGE_RATE >
       MAXIMUM_DURABILITY_MODIFIER_VALUE
     ) {
-      this.durabilityModifier =
-        MAXIMUM_DURABILITY_MODIFIER_VALUE - this.baseDurability;
+      this.setDurabilityModifier =
+        MAXIMUM_DURABILITY_MODIFIER_VALUE - this.getBaseDurability;
       return;
     }
 
-    this.durabilityModifier =
-      this.durabilityModifier + Sword.MODIFIER_CHANGE_RATE;
+    this.setDurabilityModifier =
+      this.getDurabilityModifier + Sword.MODIFIER_CHANGE_RATE;
   }
 }

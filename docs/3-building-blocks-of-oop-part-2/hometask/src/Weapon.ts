@@ -2,10 +2,10 @@ import { Item } from "./Item";
 
 export abstract class Weapon extends Item {
   static readonly MODIFIER_CHANGE_RATE: number = 0.05;
-  private _baseDamage: number;
-  private _baseDurability: number;
-  private _damageModifier: number = 0;
-  private _durabilityModifier: number = 0;
+  private baseDamage: number;
+  private baseDurability: number;
+  private damageModifier: number = 0;
+  private durabilityModifier: number = 0;
 
   constructor(
     name: string,
@@ -16,8 +16,8 @@ export abstract class Weapon extends Item {
   ) {
     super(name, value, weight);
 
-    this._baseDamage = baseDamage;
-    this._baseDurability = baseDurability;
+    this.baseDamage = baseDamage;
+    this.baseDurability = baseDurability;
   }
 
   abstract polish(): void;
@@ -31,8 +31,8 @@ export abstract class Weapon extends Item {
       this.name
     }, dealing ${this.getDamage().toFixed(2)} points of damage.`;
 
-    this.durabilityModifier =
-      this.durabilityModifier - Weapon.MODIFIER_CHANGE_RATE;
+    this.setDurabilityModifier =
+      this.getDurabilityModifier - Weapon.MODIFIER_CHANGE_RATE;
 
     if (this.getDurability() <= 0) {
       resultString += `\nThe ${this.name} breaks.`;
@@ -49,35 +49,35 @@ export abstract class Weapon extends Item {
     }%`;
   }
 
-  get baseDamage(): number {
-    return this._baseDamage;
+  get getBaseDamage(): number {
+    return this.baseDamage;
   }
 
-  get baseDurability(): number {
-    return this._baseDurability;
+  get getBaseDurability(): number {
+    return this.baseDurability;
   }
 
-  get damageModifier(): number {
-    return this._damageModifier;
+  get getDamageModifier(): number {
+    return this.damageModifier;
   }
 
-  set damageModifier(newDamageModifier: number) {
-    this._damageModifier = newDamageModifier;
+  set setDamageModifier(newDamageModifier: number) {
+    this.damageModifier = newDamageModifier;
   }
 
-  get durabilityModifier(): number {
-    return this._durabilityModifier;
+  get getDurabilityModifier(): number {
+    return this.durabilityModifier;
   }
 
-  set durabilityModifier(newDurabilityModifier: number) {
-    this._durabilityModifier = newDurabilityModifier;
+  set setDurabilityModifier(newDurabilityModifier: number) {
+    this.durabilityModifier = newDurabilityModifier;
   }
 
   getDamage(): number {
-    return this.baseDamage + this.damageModifier;
+    return this.getBaseDamage + this.getDamageModifier;
   }
 
   getDurability(): number {
-    return this.baseDurability + this.durabilityModifier;
+    return this.getBaseDurability + this.getDurabilityModifier;
   }
 }

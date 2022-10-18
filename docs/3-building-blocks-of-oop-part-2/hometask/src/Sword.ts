@@ -14,14 +14,15 @@ export class Sword extends Weapon {
 
   polish(): void {
     if (
-      this.damageModifier + Sword.MODIFIER_CHANGE_RATE >
-      this.baseDamage * MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE
+      this.getDamageModifier + Sword.MODIFIER_CHANGE_RATE >
+      this.getBaseDamage * MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE
     ) {
-      this.damageModifier =
-        this.baseDamage * MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE;
+      this.setDamageModifier =
+        this.getBaseDamage * MAXIMUM_DAMAGE_MODIFIER_PERCENTAGE;
       return;
     }
 
-    this.damageModifier = this.damageModifier + Sword.MODIFIER_CHANGE_RATE;
+    this.setDamageModifier =
+      this.getDamageModifier + Sword.MODIFIER_CHANGE_RATE;
   }
 }
