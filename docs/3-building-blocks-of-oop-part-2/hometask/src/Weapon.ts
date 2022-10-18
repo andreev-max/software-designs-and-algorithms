@@ -23,18 +23,18 @@ export abstract class Weapon extends Item {
   abstract polish(): void;
 
   use(): string {
-    if (this.durabilityModifier + this.baseDurability <= 0) {
+    if (this.getDurability() <= 0) {
       return `You can't use the ${this.name}, it is broken.`;
     }
 
-    let resultString = `You use the ${this.name}, dealing ${(
-      this.damageModifier + this.baseDamage
-    ).toFixed(2)} points of damage.`;
+    let resultString = `You use the ${
+      this.name
+    }, dealing ${this.getDamage().toFixed(2)} points of damage.`;
 
     this.durabilityModifier =
       this.durabilityModifier - Weapon.MODIFIER_CHANGE_RATE;
 
-    if (this.durabilityModifier + this.baseDurability <= 0) {
+    if (this.getDurability() <= 0) {
       resultString += `\nThe ${this.name} breaks.`;
     }
 
@@ -44,9 +44,9 @@ export abstract class Weapon extends Item {
   toString(): string {
     return `${this.name} - Value: ${this.value}, Weight: ${
       this.weight
-    }, Damage: ${(this.damageModifier + this.baseDamage).toFixed(
-      2
-    )}, Durability: ${this.durabilityModifier + this.baseDurability * 100}%`;
+    }, Damage: ${this.getDamage().toFixed(2)}, Durability: ${
+      this.getDurability() * 100
+    }%`;
   }
 
   get baseDamage(): number {
@@ -71,5 +71,13 @@ export abstract class Weapon extends Item {
 
   set durabilityModifier(newDurabilityModifier: number) {
     this._durabilityModifier = newDurabilityModifier;
+  }
+
+  getDamage(): number {
+    return this.baseDamage + this.damageModifier;
+  }
+
+  getDurability(): number {
+    return this.baseDurability + this.durabilityModifier;
   }
 }
