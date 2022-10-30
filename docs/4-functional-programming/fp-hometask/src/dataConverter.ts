@@ -1,35 +1,49 @@
 import { Account, Image, User } from 'types';
 import { Row } from './components';
+import { DataWithUserId } from './types';
+
+function transformDataToRow({
+  avatar,
+  username,
+  country,
+  name,
+  lastPayments,
+  posts,
+}: User & { avatar: string; posts: number; lastPayments: number }): Row {
+  return {
+    avatar,
+    username,
+    country,
+    name,
+    lastPayments,
+    posts,
+  };
+}
 
 export const dataConverter = (
   users: User[],
   accounts: Account[],
   images: Image[]
 ): Row[] => {
-  return users.map(({ userID, username, country, name }) => {
-    let avatar = 'fallback-image';
-    let lastPayments = 0;
-    let posts = 0;
-
-    const image = images.find(image => image.userID === userID);
-    const account = accounts.find(acc => acc.userID === userID);
-
-    if (image) {
-      avatar = image.url;
-    }
-
-    if (account) {
-      lastPayments = account?.payments?.[0]?.totalSum ?? 0;
-      posts = account?.posts ?? 0;
-    }
-
+  function addAccount<T extends DataWithUserId>(
+    data: T
+  ): T & { posts: number; lastPayments: number } {
+    const foundAccount = accounts.find(({ userID }) => userID === data.userID);
     return {
-      avatar,
-      username,
-      country,
-      name,
-      lastPayments,
-      posts,
+      ...data,
+      posts: foundAccount.posts ?? 0,
+      lastPayments: foundAccount.payments?.[0]?.totalSum ?? 0,
     };
-  });
+  }
+
+  function addAvatar<T extends DataWithUserId>(
+    data: T
+  ): T & { avatar: string } {
+    const foundImage = images.find(({ userID }) => userID === data.userID);
+    return { ...data, avatar: foundImage.url ?? 'fallback-image-url' };
+  }
+
+  return users.map((user: User) =>
+    transformDataToRow(addAvatar(addAccount(user)))
+  );
 };

@@ -1,35 +1,48 @@
 import { Row } from './components';
 import { FilterValueType, SortValueType } from './types';
 
-export function filterBySearch(rows: Row[], value: string): Row[] {
-  if (!rows || !value) {
-    return [];
-  }
-
-  return [...rows].filter(
-    ({ username, country, name }) =>
-      username.toLowerCase().includes(value.toLowerCase()) ||
-      country.toLowerCase().includes(value.toLowerCase()) ||
-      name.toLowerCase().includes(value.toLowerCase())
+function filterBySearchedValue(row: Row, searchedValue: string): boolean {
+  return (
+    row.username.toLowerCase().includes(searchedValue.toLowerCase()) ||
+    row.country.toLowerCase().includes(searchedValue.toLowerCase()) ||
+    row.name.toLowerCase().includes(searchedValue.toLowerCase())
   );
 }
 
-export function filterByFilters(rows: Row[], value: string[]): Row[] {
-  if (!rows || !value.length) {
+function filterBySelectedFilters(row: Row, selectedFilters: string[]): boolean {
+  let noPosts: boolean = false;
+  let moreThan100Posts: boolean = false;
+
+  if (selectedFilters.includes(FilterValueType.MoreThan100Posts)) {
+    moreThan100Posts = row.posts > 100;
+  }
+
+  if (selectedFilters.includes(FilterValueType.WithoutPosts)) {
+    noPosts = !row.posts;
+  }
+
+  return noPosts || moreThan100Posts;
+}
+
+export function filterRows(
+  rows: Row[],
+  searchedValue: string,
+  selectedFilters: string[]
+): Row[] {
+  if (!rows) {
     return [];
   }
 
-  if (value.length === 2) {
-    return rows.filter(({ posts }) => !posts || posts > 100);
+  if (!selectedFilters.length && !searchedValue) {
+    return rows;
   }
 
-  if (value.includes(FilterValueType.WithoutPosts)) {
-    return rows.filter(({ posts }) => !posts);
-  }
-
-  if (value.includes(FilterValueType.MoreThan100Posts)) {
-    return rows.filter(({ posts }) => posts > 100);
-  }
+  return rows.filter(row => {
+    return (
+      (searchedValue && filterBySearchedValue(row, searchedValue)) ||
+      (selectedFilters.length && filterBySelectedFilters(row, selectedFilters))
+    );
+  });
 }
 
 export function sortRows(rows: Row[], sortValue: string) {
@@ -37,22 +50,19 @@ export function sortRows(rows: Row[], sortValue: string) {
     return [];
   }
 
+  if (!sortValue) {
+    return rows;
+  }
+
+  const sortedRows = [...rows];
+
   if (sortValue === SortValueType.DESC) {
-    return rows.sort((a, b) =>
+    return sortedRows.sort((a, b) =>
       a.username.toLowerCase() > b.username.toLowerCase() ? -1 : 1
     );
   } else if (sortValue === SortValueType.ASC) {
-    return rows.sort((a, b) =>
+    return sortedRows.sort((a, b) =>
       a.username.toLowerCase() > b.username.toLowerCase() ? 1 : -1
     );
-  } else {
-    return rows;
   }
-}
-
-export function getUniqueRows(rows: Row[]) {
-  return rows.filter(
-    (v, i, a) =>
-      a.findIndex(v2 => ['username', 'name'].every(k => v2[k] === v[k])) === i
-  );
 }

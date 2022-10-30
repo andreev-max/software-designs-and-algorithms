@@ -8,21 +8,15 @@ import { getImages, getUsers, getAccounts } from './mocks/api';
 import rows from './mocks/rows.json';
 import styles from './App.module.scss';
 import { dataConverter } from './dataConverter';
-import {
-  filterByFilters,
-  filterBySearch,
-  getUniqueRows,
-  sortRows,
-} from './utils';
+import { filterRows, sortRows } from './utils';
 import { FilterValueType, SortValue } from './types';
 
 // mockedData has to be replaced with parsed Promises’ data
 const mockedData: Row[] = rows.data;
 
-let ALL_ROWS: Row[] = [];
-
 export const App: FC = () => {
   const [data, setData] = useState<Row[]>(undefined);
+  const [dataForView, setDataForView] = useState<Row[]>(undefined);
   const [searchedValue, setSearchedValue] = useState('');
   const [selectedFilters, setSelectedFilters] = useState<FilterValueType[]>([]);
   const [selectedSort, setSelectedSort] = useState<SortValue>('');
@@ -32,27 +26,16 @@ export const App: FC = () => {
     Promise.all([getImages(), getUsers(), getAccounts()]).then(
       ([images, users, accounts]: [Image[], User[], Account[]]) => {
         const convertedData = dataConverter(users, accounts, images);
-        ALL_ROWS = convertedData;
         setData(convertedData);
+        setDataForView(convertedData);
       }
     );
   }, []);
 
   useEffect(() => {
-    const filteredData = [
-      ...filterBySearch(ALL_ROWS, searchedValue),
-      ...filterByFilters(ALL_ROWS, selectedFilters),
-    ];
-
-    let newData: Row[] = [];
-
-    if (searchedValue || selectedFilters.length) {
-      newData = getUniqueRows(filteredData);
-    } else {
-      newData = ALL_ROWS;
-    }
-
-    setData(sortRows(newData, selectedSort));
+    setDataForView(
+      sortRows(filterRows(data, searchedValue, selectedFilters), selectedSort)
+    );
   }, [searchedValue, selectedFilters, selectedSort]);
 
   return (
@@ -71,7 +54,7 @@ export const App: FC = () => {
             setSearchedValue={setSearchedValue}
           />
         </div>
-        <Table rows={data || mockedData} />
+        <Table rows={dataForView || mockedData} />
       </div>
     </StyledEngineProvider>
   );

@@ -9,3 +9,7 @@ export enum FilterValueType {
   WithoutPosts = 'Without posts',
   MoreThan100Posts = 'More than 100 posts',
 }
+
+export type DataWithUserId = { userID: string };
+
+
