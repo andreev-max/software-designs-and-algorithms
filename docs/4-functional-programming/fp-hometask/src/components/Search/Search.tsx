@@ -23,10 +23,6 @@ export const Search: FC<SearchProps> = ({
   searchedValue,
   setSearchedValue,
 }) => {
-  const onChange = (value: string) => {
-    setSearchedValue(value);
-  };
-
   return (
     <OutlinedInput
       className={styles.input}
@@ -38,7 +34,7 @@ export const Search: FC<SearchProps> = ({
           <SearchIcon />
         </InputAdornment>
       }
-      onChange={e => onChange(e.target.value)}
+      onChange={e => setSearchedValue(e.target.value)}
     />
   );
 };

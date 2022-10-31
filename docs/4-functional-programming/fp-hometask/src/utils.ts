@@ -1,3 +1,5 @@
+import * as _ from 'lodash';
+
 import { Row } from './components';
 import { FilterValueType, SortValueType } from './types';
 
@@ -24,10 +26,10 @@ function filterBySelectedFilters(row: Row, selectedFilters: string[]): boolean {
   return noPosts || moreThan100Posts;
 }
 
-export function filterRows(
-  rows: Row[],
+export function filterRowsWithoutCurry(
   searchedValue: string,
-  selectedFilters: string[]
+  selectedFilters: string[],
+  rows: Row[]
 ): Row[] {
   if (!rows) {
     return [];
@@ -45,7 +47,9 @@ export function filterRows(
   });
 }
 
-export function sortRows(rows: Row[], sortValue: string) {
+export const filterRows = _.curry(filterRowsWithoutCurry);
+
+export function sortRowsWithoutCurry(sortValue: string, rows: Row[]) {
   if (!rows) {
     return [];
   }
@@ -66,3 +70,5 @@ export function sortRows(rows: Row[], sortValue: string) {
     );
   }
 }
+
+export const sortRows = _.curry(sortRowsWithoutCurry);

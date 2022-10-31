@@ -1,6 +1,7 @@
-import { FC } from 'react';
+import { FC, useMemo } from 'react';
 import { useState, useEffect } from 'react';
 import { StyledEngineProvider } from '@mui/material/styles';
+import * as _ from 'lodash';
 
 import { Image, User, Account } from '../types';
 import { Table, Filters, Sort, Search, Row } from './components';
@@ -27,16 +28,16 @@ export const App: FC = () => {
       ([images, users, accounts]: [Image[], User[], Account[]]) => {
         const convertedData = dataConverter(users, accounts, images);
         setData(convertedData);
-        setDataForView(convertedData);
       }
     );
   }, []);
 
   useEffect(() => {
-    setDataForView(
-      sortRows(filterRows(data, searchedValue, selectedFilters), selectedSort)
-    );
-  }, [searchedValue, selectedFilters, selectedSort]);
+    const rowFilter = filterRows(searchedValue)(selectedFilters);
+    const rowSorter = sortRows(selectedSort);
+
+    setDataForView(rowSorter(rowFilter(data)));
+  }, [searchedValue, selectedFilters, selectedSort, data]);
 
   return (
     <StyledEngineProvider injectFirst>
@@ -47,7 +48,10 @@ export const App: FC = () => {
               selectedFilters={selectedFilters}
               setSelectedFilters={setSelectedFilters}
             />
-            <Sort setSelectedSort={setSelectedSort} />
+            <Sort
+              selectedSort={selectedSort}
+              setSelectedSort={setSelectedSort}
+            />
           </div>
           <Search
             searchedValue={searchedValue}

@@ -9,6 +9,7 @@ import styles from './Sort.module.scss';
 import { SortValue, SortValueType } from 'src/types';
 
 interface SortProps {
+  selectedSort: SortValue;
   setSelectedSort: (value: SortValue) => void;
 }
 
@@ -21,12 +22,7 @@ interface SortProps {
 
 // OR store can be global
 
-export const Sort: FC<SortProps> = ({ setSelectedSort }) => {
-  const handleChange = (value: SortValueType) => {
-    console.log(value); // for debugging
-    setSelectedSort(value);
-  };
-
+export const Sort: FC<SortProps> = ({ selectedSort, setSelectedSort }) => {
   return (
     <FormControl className={styles.control} component="fieldset">
       <FormLabel className={styles.label}>Sort by payments</FormLabel>
@@ -34,7 +30,8 @@ export const Sort: FC<SortProps> = ({ setSelectedSort }) => {
         className={styles.group}
         aria-label="sorting"
         name="radio-buttons-group"
-        onChange={e => handleChange(e.target.value as SortValueType)}
+        onChange={e => setSelectedSort(e.target.value as SortValueType)}
+        value={selectedSort}
       >
         <FormControlLabel
           value={SortValueType.DESC}
