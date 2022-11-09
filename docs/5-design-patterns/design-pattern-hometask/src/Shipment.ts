@@ -1,66 +1,32 @@
-import { getShipmentTypeAccordingToThisWeight, printExtraInfo } from "../utils";
-import { PackageType } from "./Package";
-import { ShipperContext } from "./Shipper";
-import { ClientShipment } from "./types";
+import { getShipmentTypeAccordingToThisWeight } from "../utils";
+import { IdProvider } from "./IdProvider";
+import { ShipperContext } from "./shipper/ShipperContext";
+import { Shippable, ShipmentData, Shipper, ShipmentType } from "./types";
 
-interface Shipment {
-  getInstance: () => ClientShipment;
-  getShipmentID: () => number;
-  ship: () => string;
-}
+export class Shipment implements Shippable {
+  static IdProvider: IdProvider;
+  shipmentData: ShipmentData;
+  shipmentType: ShipmentType;
+  shipper: Shipper;
 
-export class SimpleShipment implements Shipment {
-  shipmentID: number = 1;
-  clientShipment: ClientShipment;
-
-  constructor(clientShipment: ClientShipment) {
-    this.clientShipment = clientShipment;
-  }
-
-  public getInstance(): ClientShipment {
-    return this.clientShipment;
-  }
-
-  public getShipmentID(): number {
-    return this.shipmentID++;
-  }
-
-  public ship(): string {
-    const { fromAddress, toAddress, weight, fromZipCode, shipmentID } =
-      this.clientShipment;
-
-    const packageType = new PackageType(
-      weight,
-      new ShipperContext(fromZipCode)
+  constructor(shipmentData: ShipmentData) {
+    this.shipmentData = {
+      ...shipmentData,
+      shipmentID:
+        shipmentData.shipmentID || Shipment.IdProvider.getShipmentId(),
+    };
+    this.shipmentType = getShipmentTypeAccordingToThisWeight(
+      shipmentData.weight
     );
-    return `Shipment with the ID ${
-      shipmentID || this.getShipmentID()
-    } will be picked up from ${fromAddress} and shipped to ${toAddress}\nCost = ${packageType.getPackageCost()}`;
-  }
-}
-
-export class SimpleShipmentDecorator implements Shipment {
-  protected wrappedShipment: Shipment;
-
-  constructor(shipment: Shipment) {
-    this.wrappedShipment = shipment;
-  }
-
-  public getShipmentID(): number {
-    return this.wrappedShipment.getShipmentID();
+    this.shipper = new ShipperContext(shipmentData.fromZipCode);
   }
 
   public ship(): string {
-    return this.wrappedShipment.ship();
-  }
+    const { fromAddress, toAddress, shipmentID } = this.shipmentData;
 
-  public getInstance(): ClientShipment {
-    return this.wrappedShipment.getInstance();
-  }
-}
-
-export class ShipmentWithExtraInfo extends SimpleShipmentDecorator {
-  public ship(): string {
-    return `${super.ship()}\n${printExtraInfo(super.getInstance()?.extraInfo)}`;
+    return `Shipment with the ID ${shipmentID} will be picked up from ${fromAddress} and shipped to ${toAddress}\nCost = ${this.shipper.getCost(
+      this.shipmentData,
+      this.shipmentType
+    )}`;
   }
 }

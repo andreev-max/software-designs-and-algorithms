@@ -1,29 +1,22 @@
 import {
   LetterPacificParcelWithExtraInfo,
   LetterWithIDChicagoSprint,
-  OversizedWithoutIDAndWithExtraChargeAirEast,
-  PackageWithIDPacificParcelWithExtraInfo,
 } from "../mocks";
-import { SimpleShipment, ShipmentWithExtraInfo } from "./Shipment";
+import { IdProvider } from "./IdProvider";
+import { Shipment } from "./Shipment";
+import { ShipmentFactory } from "./ShipmentFactory";
+import { MarkType } from "./types";
 
-const shipmentWithID = new SimpleShipment(LetterWithIDChicagoSprint);
-const shipmentWithoutID = new SimpleShipment(
-  OversizedWithoutIDAndWithExtraChargeAirEast
-);
-const shipmentWithExtraInfo1 = new SimpleShipment(
-  LetterPacificParcelWithExtraInfo
-);
-const shipmentWithExtraInfo2 = new SimpleShipment(
-  PackageWithIDPacificParcelWithExtraInfo
+Shipment.IdProvider = IdProvider.getInstance();
+
+const factory = new ShipmentFactory();
+
+const shipmentWithID = factory.createShipment(LetterWithIDChicagoSprint);
+
+const shipmentWithMarks = factory.createShipmentWithMarks(
+  LetterPacificParcelWithExtraInfo, [MarkType.DoNotLeave, MarkType.Fragile]
 );
 
 console.log(shipmentWithID.ship());
-console.log(shipmentWithoutID.ship());
-console.log(shipmentWithExtraInfo1.ship());
-console.log(shipmentWithExtraInfo2.ship());
+console.log(shipmentWithMarks.ship());
 
-const shipmentDecorator1 = new ShipmentWithExtraInfo(shipmentWithExtraInfo1);
-const shipmentDecorator2 = new ShipmentWithExtraInfo(shipmentWithExtraInfo2);
-
-console.log(shipmentDecorator1.ship());
-console.log(shipmentDecorator2.ship());
