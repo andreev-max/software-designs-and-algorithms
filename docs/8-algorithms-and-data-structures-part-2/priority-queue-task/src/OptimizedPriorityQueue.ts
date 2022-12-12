@@ -3,10 +3,12 @@ import { PrioritizedItem } from "./types";
 export class OptimizedPriorityQueue {
   public list: PrioritizedItem[];
   constructor() {
-    this.list = [{ value: "empty", priority: -1000000 }];
+    this.list = [
+      { value: () => console.log("First Item"), priority: -1000000 },
+    ];
   }
 
-  enqueue(value: string, priority = 0) {
+  enqueue(value: Function, priority = 0) {
     this.list.push({ value, priority });
 
     if (this.list.length > 2) {
@@ -29,7 +31,7 @@ export class OptimizedPriorityQueue {
 
   dequeue() {
     let smallest = this.list[1];
-    if (this.list.length > 2) {
+    if (this.list.length > 3) {
       this.list[1] = this.list[this.list.length - 1];
       this.list.splice(this.list.length - 1);
 
@@ -38,7 +40,7 @@ export class OptimizedPriorityQueue {
           [this.list[1], this.list[2]] = [this.list[2], this.list[1]];
         }
 
-        return smallest;
+        return smallest.value();
       }
 
       let i = 1;
@@ -64,16 +66,20 @@ export class OptimizedPriorityQueue {
           break;
         }
       }
-    } else if (this.list.length === 2) {
+    } else if (this.list.length === 3 || this.list.length === 2) {
       this.list.splice(1, 1);
     } else {
       return null;
     }
 
-    return smallest;
+    return smallest.value();
   }
 
   print() {
     console.log(this.list);
+  }
+
+  get size() {
+    return this.list.length > 1 ? this.list.length : 0;
   }
 }

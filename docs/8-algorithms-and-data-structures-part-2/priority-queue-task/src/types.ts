@@ -1,4 +1,4 @@
 export interface PrioritizedItem {
   priority: number;
-  value: string;
+  value: Function;
 }

@@ -30,20 +30,28 @@ const opq = new OptimizedPriorityQueue();
 // opq.enqueue("10");
 // opq.dequeue();
 // opq.enqueue('10')
-
-let pqStart = Date.now();
-
-for (let i = 0; i < 100001; i++) {
-  pq.enqueue("10", Math.floor(Math.random() * 10000));
-}
-const pqEnd = Date.now() - pqStart;
 // opq.print();
+
+// let pqStart = Date.now();
+
+// for (let i = 0; i < 100001; i++) {
+//   pq.enqueue("10", Math.floor(Math.random() * 10000));
+// }
+// const pqEnd = Date.now() - pqStart;
 
 let opqStart = Date.now();
 
-for (let i = 0; i < 100001; i++) {
-  opq.enqueue("10", Math.floor(Math.random() * 10000));
+for (let i = 0; i < 11; i++) {
+  opq.enqueue(
+    () => console.log(`Item with index: ${i}`),
+    Math.floor(Math.random() * 10000)
+  );
 }
+
+while (opq.size) {
+  opq.dequeue();
+}
+
 const opqEnd = Date.now() - opqStart;
 // opq.print();
-console.log({ opqEnd, pqEnd });
+console.log({ opqEnd });

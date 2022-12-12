@@ -14,7 +14,7 @@ export class PriorityQueue {
     return this.size === 0;
   }
 
-  enqueue(value: string, priority = 0) {
+  enqueue(value: Function, priority = 0) {
     if (this.isEmpty || priority >= this.list[this.size - 1].priority) {
       this.list.push({ value, priority });
     } else {
