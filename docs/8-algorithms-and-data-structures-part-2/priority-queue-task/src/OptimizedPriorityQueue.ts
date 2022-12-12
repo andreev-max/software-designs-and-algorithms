@@ -48,23 +48,21 @@ export class OptimizedPriorityQueue {
       let right = 2 * i + 1;
 
       while (
-        this.list[i].priority >= this.list[left].priority ||
-        this.list[i].priority >= this.list[right].priority
+        this.list[left]?.priority &&
+        this.list[right]?.priority &&
+        (this.list[i].priority > this.list[left].priority ||
+          this.list[i].priority > this.list[right].priority)
       ) {
         if (this.list[left].priority < this.list[right].priority) {
           [this.list[i], this.list[left]] = [this.list[left], this.list[i]];
-          i = 2 * i + 1;
+          i = 2 * i;
         } else {
-          [this.list[i], (this.list[right] = this.list[right]), this.list[i]];
+          [this.list[i], this.list[right]] = [this.list[right], this.list[i]];
           i = 2 * i + 1;
         }
 
         left = 2 * i;
         right = 2 * i + 1;
-
-        if (!this.list[left] || !this.list[right]) {
-          break;
-        }
       }
     } else if (this.list.length === 3 || this.list.length === 2) {
       this.list.splice(1, 1);

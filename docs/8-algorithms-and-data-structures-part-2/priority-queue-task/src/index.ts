@@ -42,13 +42,11 @@ const opq = new OptimizedPriorityQueue();
 let opqStart = Date.now();
 
 for (let i = 0; i < 11; i++) {
-  opq.enqueue(
-    () => console.log(`Item with index: ${i}`),
-    Math.floor(Math.random() * 10000)
-  );
+  const x = Math.floor(Math.random() * 100);
+  opq.enqueue(() => console.log(`Item with index: ${i}; x - ${x}`), x);
 }
-
 while (opq.size) {
+  opq.print();
   opq.dequeue();
 }
 
